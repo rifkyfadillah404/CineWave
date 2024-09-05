@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #232323;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav li {
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 88px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav input {
+    padding: 8px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+header nav button {
+    padding: 8px 20px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+header nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hover a:hover {
+    transition: 0.5s;
+    color: rgb(149, 141, 141);
+}
+
+.hero {
+    position: relative;
+    background: url("/img/Project Silence.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    width: auto;
+    height: 80vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content img {
+    width: auto;
+    height: auto;
+    margin-right: 40px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.hero-info p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.hero-info button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-info button:hover {
+    transform: translateY(-10px);
+}
+
+.categori {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+
+.categori-conten button {
+    margin-right: 5px;
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.categori-conten button:hover {
+    background-color: #444;
+}
+
+.categori-conten p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 100px;
+    font-weight: lighter;
+    border-bottom: 2px solid #000;
+    padding-bottom: 50px;
+    padding-right: 350px;
+}
+
